@@ -43,11 +43,11 @@ export const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className='flex z-10  flex-col  w-full'>
-        <div className='flex absolute top-3 w-full justify-between text-cyan-200 px-20'>
+      <div className='flex z-10   flex-col  w-full'>
+        <div className='flex  w-full justify-between mb-5 text-cyan-200 px-1 md:px-20'>
 
           <div className="flex justify-center items-center">
-            <img src={logokerala} alt="Logo" className="h-16 cursor-pointer w-auto bg-white" />
+            <img src={logokerala} alt="Logo" className=" h-10 md:h-16 cursor-pointer w-auto bg-white" />
             {/* <span className="text-xl md:text-2xl font-bold ">
                     K-AI
                       </span> */}

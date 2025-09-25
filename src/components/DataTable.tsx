@@ -56,7 +56,7 @@ export const DataTable = () => {
 
   return (
     <section ref={ref} className="py-20 px-6 bg-gradient-to-t from-kai-purple/10 to-background">
-      <div className="mx-20">
+      <div className="mx-2 md:mx-20">
         <div className={`transition-all duration-800 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}>
