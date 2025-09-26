@@ -3,25 +3,25 @@ import { useEffect } from 'react';
 
 const statsData = [
   {
-    number: 20,
+    number: 1000,
     suffix: '+',
-    title: 'Departments',
-    description: 'Government departments leveraging AI for better governance',
-    icon: '🎯'
+    title: 'Trainings',
+    description: 'Comprehensive AI training sessions conducted',
+    icon: '🔄'
+  },
+  {
+    number: 400,
+    suffix: '+',
+    title: 'Ongoing Trainings',
+    description: 'Active participation from various departments',
+    icon: '♻️'
   },
   {
     number: 24,
-    suffix: '+',
-    title: 'Ideas ',
-    description: 'welcoming innovative ideas from citizens and organizations',
-    icon: '⚡'
-  },
-  {
-    number: 700,
-    suffix: '+',
-    title: 'Proposals',
-    description: 'Reviewed and refined for impactful implementation',
-    icon: '💡'
+    suffix: '/7',
+    title: 'Support',
+    description: 'Round-the-clock assistance for all training needs',
+    icon: '🕑'
   }
 ];
 
@@ -62,20 +62,20 @@ const StatCard = ({ stat, index }: { stat: typeof statsData[0], index: number })
   );
 };
 
-export const StatsCards = () => {
+export const VidyAiCards = () => {
   const [ref, isVisible] = useScrollAnimation(0.2);
 
   return (
-    <section ref={ref} className="py-20 px-6 ">
+    <section ref={ref} className="pt-20 px-6 ">
       <div className="max-w-6xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-800 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
-            Powering Smart Governance
+           Vid-AI is Our Training Portal for Government Departments
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Experience the transformation of traditional governance through cutting-edge AI technology
+            Empowering Departments with AI Knowledge and Skills
           </p>
         </div>
 
@@ -85,6 +85,27 @@ export const StatsCards = () => {
           ))}
         </div>
       </div>
+      {/* vidyai button */}
+      <div className='relative pt-5'>
+            <div className="flex flex-col  gap-4 justify-center items-center mt-8 mb-20">
+                        {/* <button className="px-8 py-4 bg-gradient-to-r from-kai-blue to-kai-cyan text-kai-dark font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 glow-border">
+                        Vidya -AI
+                        </button> */}
+                        {/* Text that idicate its a trainig program portal --> viyAi */}
+                        {/* <p className="text-kai-cyan text-sm md:text-base">
+                        A Training Program Portal for Government Employees
+                        </p> */}
+
+                        <button className="px-8 py-4 bg-transparent border border-kai-cyan text-kai-cyan font-semibold rounded-lg hover:bg-kai-cyan hover:text-kai-dark transition-all duration-300">
+                        Vidy - AI
+                        </button>
+            </div>
+                <div className="absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div className="w-6 h-10 border-2 border-kai-cyan rounded-full flex justify-center">
+              <div className="w-1 h-3 bg-kai-cyan rounded-full mt-2 animate-pulse"></div>
+            </div>
+          </div>
+        </div>
     </section>
   );
 };

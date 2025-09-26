@@ -145,23 +145,28 @@ export const HeroSection = () => {
                   ))}
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
-                <button className="px-8 py-4 bg-gradient-to-r from-kai-blue to-kai-cyan text-kai-dark font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 glow-border">
+              {/* <div className="flex flex-col  gap-4 justify-center items-center mt-8 mb-20">
+               <button className="px-8 py-4 bg-gradient-to-r from-kai-blue to-kai-cyan text-kai-dark font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 glow-border">
                   Vidya -AI
-                </button>
+                </button> 
+               
+                <p className="text-kai-cyan text-sm md:text-base">
+                  A Training Program Portal for Government Employees
+                </p>
+
                 <button className="px-8 py-4 bg-transparent border border-kai-cyan text-kai-cyan font-semibold rounded-lg hover:bg-kai-cyan hover:text-kai-dark transition-all duration-300">
-                  Learn More
+                Vidy - AI
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* Scroll indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <div className="w-6 h-10 border-2 border-kai-cyan rounded-full flex justify-center">
               <div className="w-1 h-3 bg-kai-cyan rounded-full mt-2 animate-pulse"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
