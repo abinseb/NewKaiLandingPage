@@ -75,7 +75,7 @@ export const VidyAiCards = () => {
           Capacity Building Portal
           </h2>
           <p className="text-xl text-muted-foreground  max-w-3xl mx-auto">
-          Driving Departmental Excellence through AI - Tagline
+          Driving Departmental Excellence through AI 
           </p>
         </div>
 
