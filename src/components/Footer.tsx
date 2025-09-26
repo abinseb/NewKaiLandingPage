@@ -2,18 +2,18 @@ export const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-kai-dark to-kai-purple/50 py-16 px-6 border-t border-kai-cyan/20">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1  gap-8">
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold gradient-text">K-AI</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
+            <p className="text-muted-foreground max-w-lg text-sm leading-relaxed">
               The future of smart governance powered by artificial intelligence. 
               Transforming decision-making through advanced neural networks.
             </p>
           </div>
 
           {/* Solutions */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h4 className="text-lg font-semibold text-kai-cyan">Solutions</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Smart Analytics</a></li>
@@ -21,10 +21,10 @@ export const Footer = () => {
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Decision Support</a></li>
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Process Automation</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Resources */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h4 className="text-lg font-semibold text-kai-cyan">Resources</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Documentation</a></li>
@@ -32,10 +32,10 @@ export const Footer = () => {
               <li><a href="#" className="hover:text-kai-cyan transition-colors">API Reference</a></li>
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Support Center</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h4 className="text-lg font-semibold text-kai-cyan">Connect</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Contact Us</a></li>
@@ -43,14 +43,16 @@ export const Footer = () => {
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-kai-cyan transition-colors">Newsletter</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">
+        <div className=" pt-5 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center">
+        <div className="w-full flex justify-center">
+        <p className="text-base font-semibold text-muted-foreground">
             © 2024 K-AI. All rights reserved. Powered by ICTAK.
           </p>
+        </div>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#" className="text-muted-foreground hover:text-kai-cyan transition-colors">
               Privacy

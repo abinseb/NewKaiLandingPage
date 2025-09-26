@@ -20,7 +20,7 @@ const statsData = [
     number: 700,
     suffix: '+',
     title: 'Proposals',
-    description: 'Reviewed and refined for impactful implementation',
+    description: '700+ Proposals Submitted and Under Review"',
     icon: '💡'
   }
 ];

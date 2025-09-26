@@ -95,7 +95,7 @@ export const DarkDepartmentCards = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-kai-dark to-background">
+    <section className="py-5 px-4 bg-gradient-to-b from-kai-dark to-background">
       <div className="container mx-auto max-w-7xl">
         <div 
           ref={ref}
@@ -104,7 +104,7 @@ export const DarkDepartmentCards = () => {
           }`}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Explore Ideas from <span className="text-kai-cyan">Departments</span>
+          Explore 50+ Ideas Across Multiple <span className="text-kai-cyan">Departments</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover cutting-edge research and innovation across multiple disciplines

@@ -3,25 +3,25 @@ import { useEffect } from 'react';
 
 const statsData = [
   {
-    number: 1000,
+    number: 10,
     suffix: '+',
     title: 'Trainings',
-    description: 'Comprehensive AI training sessions conducted',
-    icon: '🔄'
+    description: 'Diverse skill development programs offered',
+    icon: '🎓'
   },
   {
-    number: 400,
+    number: 20,
     suffix: '+',
-    title: 'Ongoing Trainings',
-    description: 'Active participation from various departments',
+    title: 'Departments',
+    description: 'Active collaboration across government & institutions',
     icon: '♻️'
   },
   {
-    number: 24,
-    suffix: '/7',
-    title: 'Support',
-    description: 'Round-the-clock assistance for all training needs',
-    icon: '🕑'
+    number: 500,
+    suffix: '+',
+    title: 'Participants',
+    description: 'Strong participation from diverse backgrounds',
+    icon: '👥'
   }
 ];
 
@@ -72,7 +72,7 @@ export const VidyAiCards = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
-           Vid-AI is Our Training Portal for Government Departments
+          Capacity Building Portal
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Empowering Departments with AI Knowledge and Skills
