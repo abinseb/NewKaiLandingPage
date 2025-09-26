@@ -5,11 +5,11 @@ export const Footer = () => {
         <div className="grid grid-cols-1  gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold gradient-text">K-AI</h3>
+            {/* <h3 className="text-2xl font-bold gradient-text">K-AI</h3>
             <p className="text-muted-foreground max-w-lg text-sm leading-relaxed">
               The future of smart governance powered by artificial intelligence. 
               Transforming decision-making through advanced neural networks.
-            </p>
+            </p> */}
           </div>
 
           {/* Solutions */}
