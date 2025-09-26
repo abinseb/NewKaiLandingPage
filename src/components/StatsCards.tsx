@@ -10,7 +10,7 @@ const statsData = [
     icon: '🎯'
   },
   {
-    number: 24,
+    number: 50,
     suffix: '+',
     title: 'Ideas ',
     description: 'welcoming innovative ideas from citizens and organizations',
