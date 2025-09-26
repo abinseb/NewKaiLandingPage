@@ -5,7 +5,7 @@ const statsData = [
   {
     number: 10,
     suffix: '+',
-    title: 'Trainings',
+    title: 'Programs',
     description: 'Diverse skill development programs offered',
     icon: '🎓'
   },

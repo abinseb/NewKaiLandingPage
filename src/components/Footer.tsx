@@ -49,8 +49,8 @@ export const Footer = () => {
         {/* Bottom */}
         <div className=" pt-5 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center">
         <div className="w-full flex justify-center">
-        <p className="text-base font-semibold text-muted-foreground">
-            © 2024 K-AI. All rights reserved. Powered by ICTAK.
+        <p className="text-sm  text-muted-foreground">
+            © 2025 K-AI. All rights reserved. <span className="text-base font-semibold">Powered by ICTAK</span>.
           </p>
         </div>
           <div className="flex space-x-6 mt-4 sm:mt-0">
