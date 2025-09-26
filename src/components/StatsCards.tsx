@@ -13,14 +13,14 @@ const statsData = [
     number: 50,
     suffix: '+',
     title: 'Ideas ',
-    description: 'welcoming innovative ideas from citizens and organizations',
+    description: 'Driving innovation with ideas from various sectors',
     icon: '⚡'
   },
   {
     number: 700,
     suffix: '+',
     title: 'Proposals',
-    description: '700+ Proposals Submitted and Under Review"',
+    description: 'Innovation Pipeline in Progress',
     icon: '💡'
   }
 ];

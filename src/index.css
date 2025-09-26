@@ -115,10 +115,11 @@ All colors MUST be HSL.
   }
   
   .gradient-text {
-    background: var(--gradient-accent);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: var(--gradient-accent); */
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    /* -webkit-text-fill-color: transparent; */
+     color: hsl(var(--kai-cyan));
   }
   
   .floating-animation {
@@ -189,3 +190,4 @@ All colors MUST be HSL.
   background-size: 200% 100%;
   animation: moveDot 4s linear infinite;
 }
+

@@ -66,16 +66,16 @@ export const VidyAiCards = () => {
   const [ref, isVisible] = useScrollAnimation(0.2);
 
   return (
-    <section ref={ref} className="pt-20 px-6 ">
+    <section ref={ref} className="pt-0 px-6 ">
       <div className="max-w-6xl mx-auto">
-        <div className={`text-center mb-16 transition-all duration-800 ${
+        <div className={`text-center mb-16 transition-all duration-800  ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
           Capacity Building Portal
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Empowering Departments with AI Knowledge and Skills
+          <p className="text-xl text-muted-foreground  max-w-3xl mx-auto">
+          Driving Departmental Excellence through AI - Tagline
           </p>
         </div>
 

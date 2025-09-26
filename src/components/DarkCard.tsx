@@ -95,7 +95,7 @@ export const DarkDepartmentCards = () => {
   };
 
   return (
-    <section className="pb-5 px-4 bg-gradient-to-b from-kai-dark to-background">
+    <section className="pb-10 px-4 bg-gradient-to-b from-kai-dark to-background border-b border-kai-cyan/20">
       <div className="container mx-auto max-w-7xl">
         <div 
           ref={ref}
@@ -115,7 +115,7 @@ export const DarkDepartmentCards = () => {
           {departments.map((department, index) => (
             <Card 
               key={department.id}
-              className={` card-glass p-6 rounded-xl glow-border transition-all duration-700 hover:scale-105 `}
+              className={` card-glass flex flex-col justify-between  p-6 rounded-xl glow-border transition-all duration-700 hover:scale-105 `}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <CardContent className="p-5 text-center">

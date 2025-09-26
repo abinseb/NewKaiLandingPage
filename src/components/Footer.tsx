@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-kai-dark to-kai-purple/50 py-16 px-6 border-t border-kai-cyan/20">
+    <footer className="bg-gradient-to-t from-kai-dark to-kai-purple/50 py-6 px-6 border-t border-kai-cyan/20">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1  gap-8">
           {/* Brand */}
@@ -49,12 +49,15 @@ export const Footer = () => {
         {/* Bottom */}
         <div className=" pt-5 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center">
         <div className="w-full flex justify-center">
+      <div className="flex flex-col  justify-center items-center">
+      <span className="text-base font-semibold text-cyan-400">Powered by ICTAK</span>
         <p className="text-sm  text-muted-foreground">
-            © 2025 K-AI. All rights reserved. <span className="text-base font-semibold">Powered by ICTAK</span>.
+            © 2025 K-AI. All rights reserved. .
           </p>
+      </div>
         </div>
           <div className="flex space-x-6 mt-4 sm:mt-0">
-            <a href="#" className="text-muted-foreground hover:text-kai-cyan transition-colors">
+            {/* <a href="#" className="text-muted-foreground hover:text-kai-cyan transition-colors">
               Privacy
             </a>
             <a href="#" className="text-muted-foreground hover:text-kai-cyan transition-colors">
@@ -62,7 +65,7 @@ export const Footer = () => {
             </a>
             <a href="#" className="text-muted-foreground hover:text-kai-cyan transition-colors">
               Security
-            </a>
+            </a> */}
           </div>
         </div>
 

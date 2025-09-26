@@ -123,7 +123,7 @@ export const HeroSection = () => {
                       className="relative rounded-lg p-2  py-3 px-4 text-center overflow-hidden border-cyan-400 border-2 animated-border"
                     >
                       {/* Dark overlay */}
-                      <div className="absolute inset-0 bg-[#1A1130]  rounded-lg z-0"></div>
+                      <div className="absolute inset-0 bg-[#1A1130]  rounded-[0.5rem] z-0"></div>
 
                       {/* Content */}
                       <div className="relative z-10">
