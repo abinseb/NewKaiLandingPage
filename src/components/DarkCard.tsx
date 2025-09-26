@@ -95,7 +95,7 @@ export const DarkDepartmentCards = () => {
   };
 
   return (
-    <section className="py-5 px-4 bg-gradient-to-b from-kai-dark to-background">
+    <section className="pb-5 px-4 bg-gradient-to-b from-kai-dark to-background">
       <div className="container mx-auto max-w-7xl">
         <div 
           ref={ref}
